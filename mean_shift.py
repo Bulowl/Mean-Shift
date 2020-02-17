@@ -21,7 +21,7 @@ def findDistance(r1,c1,r2,c2):
 #main function
 cv2.namedWindow('tracker')
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 while True:
     while True:
         _,frame = cap.read() 
